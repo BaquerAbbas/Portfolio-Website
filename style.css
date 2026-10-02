@@ -1,0 +1,26 @@
+:root {
+  --color-base: #001f65;
+  --color-primary: #6895fd;
+  --color-white: #ffffff;
+}
+
+
+.hero {
+  min-height: 100vh;
+  background-color: var(--color-base);
+background: linear-gradient(to bottom, var(--color-base), var(--color-primary));
+  color: var(--color-white);
+}
+
+h1{
+    font-size: 100px !important;
+    color: white ;
+    font-family: monospace;
+  
+}
+
+.Hero-desc {
+    font-size: 50px !important;
+ 
+}
+
