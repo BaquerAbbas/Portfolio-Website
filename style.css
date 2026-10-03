@@ -4,6 +4,9 @@
   --color-white: #ffffff;
 }
 
+body {
+  font-family: -apple-system, "Inter", sans-serif;
+}
 
 .hero {
   min-height: 100vh;
@@ -12,15 +15,46 @@ background: linear-gradient(to bottom, var(--color-base), var(--color-primary));
   color: var(--color-white);
 }
 
-h1{
-    font-size: 100px !important;
-    color: white ;
-    font-family: monospace;
+.hero-title {
+  font-size: 180px;
+  font-family: "JetBrains Mono", monospace !important ;
+color: whitesmoke;
+text-align: center;
+
+}
+
+.lead {
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.hero-img{
+  border-radius: 50%;
+}
+
+.tagline {
+  text-align: center;
+  color: whitesmoke;
   
 }
 
-.Hero-desc {
-    font-size: 50px !important;
- 
+.nav {
+  --bs-nav-link-color: whitesmoke;
+  --bs-nav-link-hover-color: lightgrey;
+}
+
+.Section-title{
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  font-size: 5rem;
+}
+.para, .edu-list{
+  color: black;
+  font-size: 1.8rem;
+}
+
+.hero-sub {
+  font-family: "JetBrains Mono", monospace;
 }
 
